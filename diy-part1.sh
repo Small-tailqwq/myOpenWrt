@@ -19,4 +19,5 @@
 
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
+git clone https://github.com/EOYOHOO/UA2F.git package/UA2F
