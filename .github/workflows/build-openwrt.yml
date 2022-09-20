@@ -101,6 +101,7 @@ jobs:
     - name: update banner
       id: banner
       run: |
+        cd openwrt
         echo -e "--------------------------------------------------------------\t
         Build By Ko_teiru for GithubActions\t
         --------------------------------------------------------------\t
